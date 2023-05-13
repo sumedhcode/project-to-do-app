@@ -3,7 +3,43 @@ body {
 }
 
 .to-do {
-    max-width: 50px;
+    max-width: 300px;
     margin: auto;
     padding: 12px;
+    background-color: plum;
+    text-align: center;
+}
+
+.to-do-form {
+    padding: 1rem;
+}
+
+.to-do .to-do-form .task-input{
+    padding: 8px;
+    border: none;
+    background-color: white;
+}
+
+.add-task {
+    padding: 8px 12px;
+    background-color: rgb(195, 255, 195);
+    border: none;
+    margin: 8px;
+    
+}
+.task-list{
+    padding: 0px;
+}
+.to-do-list {
+    padding: 8px;
+    text-align: center;
+}
+
+.to-do-list .to-do-item {
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+    border: 1px solid gray;
+    margin: 1rem;
+    margin-right: 24px;
 }
